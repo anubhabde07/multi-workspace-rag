@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from fastapi import Depends
 
-from deps import get_user_supabase
+from app.deps import get_user_supabase
 
 router = APIRouter()
 
